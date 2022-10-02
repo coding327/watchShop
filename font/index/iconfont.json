@@ -1,0 +1,142 @@
+{
+  "id": "3448633",
+  "name": "watchShop",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "77156",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "978353",
+      "name": "新浪微博",
+      "font_class": "weibo",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "4937010",
+      "name": "twitter-circle-fill",
+      "font_class": "twitter-circle-fill",
+      "unicode": "e88a",
+      "unicode_decimal": 59530
+    },
+    {
+      "icon_id": "5127612",
+      "name": "youtube",
+      "font_class": "youtube",
+      "unicode": "e85a",
+      "unicode_decimal": 59482
+    },
+    {
+      "icon_id": "5634657",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "f19d",
+      "unicode_decimal": 61853
+    },
+    {
+      "icon_id": "10485790",
+      "name": "in",
+      "font_class": "in",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "683272",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "830919",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "834249",
+      "name": "回到顶部",
+      "font_class": "huidaodingbu",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "19877343",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "28038398",
+      "name": "通用-向右箭头",
+      "font_class": "tongyong-xiangyoujiantou",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "538878",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "826097",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "4879732",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "5387490",
+      "name": "指南针",
+      "font_class": "zhinanzhen",
+      "unicode": "eae9",
+      "unicode_decimal": 60137
+    },
+    {
+      "icon_id": "7474656",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "10617577",
+      "name": "登录-用户",
+      "font_class": "denglu-yonghu",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "10939449",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "18170243",
+      "name": "代码,分支,分流,分叉",
+      "font_class": "code-branch",
+      "unicode": "e993",
+      "unicode_decimal": 59795
+    }
+  ]
+}

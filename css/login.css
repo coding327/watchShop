@@ -1,0 +1,341 @@
+/* 1192px */
+/* header */
+.bigHeader {
+    height: 50px;
+    background: #212121;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+header {
+    width: 1192px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    color: #a3a3a3;
+    position: relative;
+}
+
+.topL {
+    flex: 1;
+    height: 50px;
+}
+
+.topL>img {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.topL .spanL {
+    margin-right: 35px;
+}
+
+.topR {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dengLu {
+    position: relative;
+}
+
+.icon-denglu-yonghu,
+.icon-gouwuche {
+    font-size: 20px;
+    color: #fff;
+}
+
+.carTip {
+    width: 360px;
+    height: 95px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    line-height: 52px;
+    padding: 20px;
+    font-size: 16px;
+    color: #999;
+    display: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.lgTips {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    right: -104px;
+    width: 225px;
+    height: 184px;
+    background: #fff;
+    padding-top: 18px;
+    display: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.lgTips .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: pink;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.avatar .userImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.lgTips .account {
+    text-align: center;
+    height: 25px;
+    font-size: 18px;
+    color: #000;
+    line-height: 20px;
+}
+
+.quit {
+    float: right;
+    margin-right: 15px;
+    font-size: 14px;
+    text-align: right;
+    cursor: pointer;
+    display: none;
+}
+
+.quit:hover {
+    color: #000;
+}
+
+.topR hr {
+    border-color: #999;
+}
+
+/* nav */
+.bigNav {
+    height: 85px;
+    background: #212121;
+}
+
+nav {
+    width: 1192px;
+    height: 100%;
+    display: flex;
+}
+
+.navL {
+    width: 243px;
+    height: 100%;
+    line-height: 85px;
+}
+
+.navL>a>img {
+    width: 185px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.navC {
+    flex: 1;
+    height: 100%;
+    color: #fff;
+    line-height: 85px;
+}
+
+.navC a {
+    font-size: 14px;
+    margin: 0 25px;
+}
+
+.navR {
+    width: 285px;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.navR .search {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #999;
+    display: flex;
+}
+
+.search>input {
+    width: 245px;
+    height: 100%;
+    border: 0;
+    padding-left: 12px;
+    background: transparent;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.search .ssuoBt {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search .icon-sousuo {
+    color: #fff;
+}
+
+/* banner */
+.bigBanner {
+    height: 633px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner {
+    width: 1520px;
+    height: 633px;
+    position: absolute;
+    left: 50%;
+    margin-left: -760px;
+}
+
+.banner>img {
+    width: 100%;
+    height: 100%;
+}
+
+.cet {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    width: 1192px;
+    height: 633px;
+}
+
+.cet .register {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 372px;
+    margin: auto 0;
+    /* todo: */
+    height: 450px;
+    background: #fff;
+    padding: 34px 27px 0;
+}
+
+.register>a {
+    display: block;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.register>a>img {
+    width: 124px;
+    height: 33px;
+}
+
+.register>h2 {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.regC {
+    margin-top: 5px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #a3a3a3;
+    display: flex;
+    background: #f5f5f5;
+}
+
+.icon-dianhua {
+    font-size: 14px;
+    margin: 0 7px;
+}
+
+.ccm {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+}
+
+.userTip,
+.pwdTip {
+    height: 16px;
+    line-height: 16px;
+}
+
+.user,
+.pwd {
+    padding-left: 10px;
+}
+
+.sub {
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.tips{
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+.error{
+    color: #dc6464;
+}
+.remember{
+    margin-top: 15px;
+    height: 20px;
+    line-height: 20px;
+}
+#rb,.rbTip{
+    vertical-align: middle;
+}
+#rb{
+    width: 15px;
+    height: 15px;
+}
+.rbTip{
+    font-size: 12px;
+}
+.regBtn,
+.logBtn {
+    width: calc(50% - 20px);
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+
+.logBtn {
+    background: #000;
+    color: #fff;
+}
+#forget{
+    margin-top: 22px;
+    display: block;
+    text-align: right;
+}

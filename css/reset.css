@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+ul,
+li,
+ol,
+dl,
+dd,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "微软雅黑";
+  font-size: 12px;
+  background-color: #eeeeee;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.clear {
+  zoom: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  border: 0;
+}
+
+input,
+select,
+button,
+textarea {
+  outline: none;
+}
+
+hr {
+  border: 0;
+}
+
+textarea {
+  resize: none;
+  border: 0;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="file"] {
+  cursor: pointer;
+}
+
+.noBorder {
+  border: 0 !important;
+}
+
+.center {
+  margin: 0 auto;
+}

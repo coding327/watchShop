@@ -1,0 +1,390 @@
+/* 1192px */
+
+/* header */
+.bigHeader {
+    height: 50px;
+    background: #212121;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+header {
+    width: 1192px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    color: #a3a3a3;
+    position: relative;
+}
+
+.topL {
+    flex: 1;
+    height: 50px;
+}
+
+.topL>img {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.topL .spanL {
+    margin-right: 35px;
+}
+
+.topR {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dengLu {
+    position: relative;
+}
+
+.icon-denglu-yonghu,
+.icon-gouwuche {
+    font-size: 20px;
+    color: #fff;
+}
+
+.carTip {
+    width: 360px;
+    height: 95px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    line-height: 52px;
+    padding: 20px;
+    font-size: 16px;
+    color: #999;
+    display: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.lgTips {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    right: -104px;
+    width: 225px;
+    height: 184px;
+    background: #fff;
+    padding-top: 18px;
+    display: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.lgTips .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: pink;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.avatar .userImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.lgTips .account {
+    text-align: center;
+    height: 25px;
+    font-size: 18px;
+    color: #000;
+    line-height: 20px;
+}
+
+.quit {
+    float: right;
+    margin-right: 15px;
+    font-size: 14px;
+    text-align: right;
+    cursor: pointer;
+    display: none;
+}
+
+.quit:hover {
+    color: #000;
+}
+
+.topR hr {
+    border-color: #999;
+}
+
+/* nav */
+.bigNav {
+    height: 85px;
+    background: #212121;
+}
+
+nav {
+    width: 1192px;
+    height: 100%;
+    display: flex;
+}
+
+.navL {
+    width: 243px;
+    height: 100%;
+    line-height: 85px;
+}
+
+.navL>a>img {
+    width: 185px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.navC {
+    flex: 1;
+    height: 100%;
+    color: #fff;
+    line-height: 85px;
+}
+
+.navC a {
+    font-size: 14px;
+    margin: 0 25px;
+}
+
+.navR {
+    width: 285px;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.navR .search {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #999;
+    display: flex;
+}
+
+.search>input {
+    width: 245px;
+    height: 100%;
+    border: 0;
+    padding-left: 12px;
+    background: transparent;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.search .ssuoBt {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search .icon-sousuo {
+    color: #fff;
+}
+
+/* .product */
+.bigProduct {
+    background: #efefef;
+    margin-bottom: 100px;
+}
+
+.product {
+    width: 1192px;
+    height: 100%;
+}
+
+.productT {
+    height: 60px;
+    background: transparent;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+.productT .gt {
+    margin: 0 4px;
+}
+
+.productC {
+    position: relative;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 54px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.glaT {
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+}
+
+.glaT>img {
+    vertical-align: middle;
+}
+.glaT .sml{
+    font-size: 12px;
+}
+.address{
+    font-size: 14px;
+    line-height: 25px;
+}
+.productC .storeMap{
+    margin-top: 20px;
+}
+
+
+/* help */
+.help {
+    width: 30px;
+    height: 90px;
+    background: #000;
+    position: fixed;
+    right: 0;
+    bottom: 240px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+}
+
+/* footer */
+.bigFooter {
+    height: 710px;
+    background: #292929;
+}
+
+footer {
+    width: 1192px;
+    height: 100%;
+}
+
+footer .footerT {
+    height: 180px;
+    border-bottom: 1px solid #a3a3a3;
+    padding-top: 80px;
+    display: flex;
+}
+
+.footerT .sal {
+    width: calc(100% / 4);
+    display: flex;
+}
+
+.sal>img {
+    width: 75px;
+    height: 50px;
+}
+
+.salTip {
+    padding-top: 4px;
+    line-height: 24px;
+}
+
+.salTip h2 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.salTip .salQ {
+    color: #a3a3a3;
+}
+
+.footerC {
+    height: 440px;
+    border-bottom: 1px solid #a3a3a3;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.footerC .about {
+    width: calc(100% / 4);
+    color: #fff;
+}
+
+.about>dt {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.about>dd {
+    width: 185px;
+    line-height: 25px;
+    color: #a3a3a3;
+}
+
+.about .payA {
+    width: 55px;
+    height: 35px;
+}
+
+.about .payB {
+    width: 35px;
+    height: 35px;
+}
+
+.about .payC {
+    width: 35px;
+    height: 35px;
+}
+
+.payA,
+.payB,
+.payC {
+    margin: 0 1px;
+}
+
+.about>img:first-of-type {
+    width: 155px;
+    height: 40px;
+    margin-bottom: 24px;
+}
+
+.about .wei {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.footerC .about:last-child {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.footerB {
+    text-align: center;
+    color: #fff;
+    padding-top: 24px;
+}
+
+.footerB .link a .iconF {
+    font-size: 18px;
+    margin: 0 6px;
+}
+
+.footerB .copy {
+    color: #a3a3a3;
+    margin-top: 10px;
+}
